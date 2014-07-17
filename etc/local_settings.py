@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from authentic2.settings import INSTALLED_APPS, DATABASES
+from authentic2.settings import INSTALLED_APPS, DATABASES,\
+    TEMPLATE_DIRS
 
 ## AUTH_USER_MODEL = 'auth2_user.User'
-INSTALLED_APPS += ('ldap_profile',)
+INSTALLED_APPS = ['ldap_profile', ] + INSTALLED_APPS
+TEMPLATE_DIRS = ('/usr/local/src/authentic2_novatus/ldap_profile/templates', )\
+    + TEMPLATE_DIRS
 
 AUTHENTICATION_BACKENDS = (
     'authentic2.backends.LDAPBackend',
