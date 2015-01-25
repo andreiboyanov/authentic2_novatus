@@ -42,3 +42,4 @@ DATABASES.update({'ldap': {
 DATABASE_ROUTERS = ['ldapdb.router.Router']
 
 CACHE_DIR = '/var/lib/authentic2/cache/'
+A2_HOMEPAGE_URL = '/profile/'

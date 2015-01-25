@@ -18,6 +18,7 @@ def _get_field_len(field):
 # (but how??)
 def get_profile_model(user):
     user_name = user.username.split('@')[0]
+    import pdb; pdb.set_trace()
     profile = Profile.objects.filter(email=user.email, username=user_name)[0]
     profile_types = {
         'ou=formateur': ProfileFormateur,
@@ -37,11 +38,14 @@ def get_profile_model(user):
 
 
 def get_profile(user):
-    profile_object = get_profile_model(user)
+    profile_object = Profile()
     user_name = user.username.split('@')[0]
-    profile = getattr(profile_object, 'objects').\
-        filter(email=user.email, username=user_name)[0]
-    return profile
+    profiles = Profile.objects.filter(email=user.email,
+		                     username=user_name)
+    try:
+        return profiles[0]
+    except IndexError:
+        return None
 
     ##'email': CharField(db_column='mail', max_length=200, unique=False),
     ##'name': CharField(db_column='cn', max_length=200, primary_key=True),
@@ -77,21 +81,21 @@ fields.update({
 Profile = type('Profile', (ldapdb.models.Model, ),
                fields.copy())
 
-fields.update({
-    'base_dn': 'ou=formateur,ou=Usersdev,dc=transfer-tic,dc=org'})
-ProfileFormateur = type('ProfileFormateur', (ldapdb.models.Model, ),
-                        fields.copy())
-
-fields.update({
-    'base_dn': 'ou=participant,ou=users,dc=transfer-tic,dc=org'})
-ProfileParticipant = type('ProfileParticipant', (ldapdb.models.Model, ),
-                          fields.copy())
-
-fields.update({
-    'base_dn': 'ou=encadrant,ou=users,dc=transfer-tic,dc=org'})
-ProfileEncadrant = type('ProfileEncadrant', (ldapdb.models.Model, ),
-                        fields.copy())
-
+## fields.update({
+##     'base_dn': 'ou=formateur,ou=Usersdev,dc=transfer-tic,dc=org'})
+## ProfileFormateur = type('ProfileFormateur', (ldapdb.models.Model, ),
+##                         fields.copy())
+## 
+## fields.update({
+##     'base_dn': 'ou=participant,ou=users,dc=transfer-tic,dc=org'})
+## ProfileParticipant = type('ProfileParticipant', (ldapdb.models.Model, ),
+##                           fields.copy())
+## 
+## fields.update({
+##     'base_dn': 'ou=encadrant,ou=users,dc=transfer-tic,dc=org'})
+## ProfileEncadrant = type('ProfileEncadrant', (ldapdb.models.Model, ),
+##                         fields.copy())
+## 
 
 class ProfileAdmin(admin.ModelAdmin):
     list_display = ('name', 'username', 'email')

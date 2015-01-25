@@ -1,7 +1,4 @@
 from django.contrib import admin
-from ldap_profile.models import ProfileAdmin,\
-    ProfileFormateur, ProfileParticipant, ProfileEncadrant
+from ldap_profile.models import ProfileAdmin, Profile
 
-admin.site.register(ProfileEncadrant, ProfileAdmin)
-admin.site.register(ProfileParticipant, ProfileAdmin)
-admin.site.register(ProfileFormateur, ProfileAdmin)
+admin.site.register(Profile, ProfileAdmin)
