@@ -1,5 +1,5 @@
 from django import forms
-from models import get_profile_model
+from models import Profile
 
 
 def LdapProfileForm(request):
@@ -8,6 +8,6 @@ def LdapProfileForm(request):
         required_css_class = 'form-field-required'
 
         class Meta:
-            model = get_profile_model(request.user)
+            model = Profile
 
     return LdapProfileFormClass

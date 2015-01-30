@@ -6,7 +6,7 @@ from authentic2.decorators import prevent_access_to_transient_users
 from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 
 import forms
-from models import get_profile, get_profile_model
+from models import get_profile, Profile
 
 
 @prevent_access_to_transient_users
@@ -42,7 +42,7 @@ class EditProfile(UpdateView):
     success_url = '../'
 
     def get_object(self):
-        self.model = get_profile_model(self.request.user)
+        self.model = Profile
         self.form_class = forms.LdapProfileForm(self.request)
         return get_profile(self.request.user)
 
