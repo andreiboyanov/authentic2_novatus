@@ -1,0 +1,1224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-05 14:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mapping-novatus.py:872 mapping.py:775
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: mapping-novatus.py:969 mapping.py:589
+msgid "Organization"
+msgstr "Organisation"
+
+#: mapping-novatus.py:1009 mapping.py:650
+msgid "Postal address"
+msgstr "Adresse postale"
+
+#: mapping-novatus.py:1054 mapping.py:1020
+msgid "Phone"
+msgstr "Téléphone"
+
+#: mapping-novatus.py:1216 mapping.py:11
+msgid "First name"
+msgstr "Prénom"
+
+#: mapping-novatus.py:1354
+msgid "Email Address"
+msgstr "Adresse électronique"
+
+#: mapping.py:22
+msgid "OpenLDAProotDSE LDAProotDSE"
+msgstr "OpenLDAProotDSE LDAProotDSE"
+
+#: mapping.py:25
+msgid "aRecord"
+msgstr ""
+
+#: mapping.py:29
+#, fuzzy
+msgid "administrativeRole"
+msgstr "Administration"
+
+#: mapping.py:33
+msgid "alias"
+msgstr "alias"
+
+#: mapping.py:37
+msgid "aliasedObjectName aliasedEntryName"
+msgstr ""
+
+#: mapping.py:41
+msgid "altServer"
+msgstr ""
+
+#: mapping.py:45
+msgid "associatedDomain"
+msgstr ""
+
+#: mapping.py:49
+msgid "associatedName"
+msgstr ""
+
+#: mapping.py:53
+msgid "attributeTypes"
+msgstr ""
+
+#: mapping.py:57
+msgid "Audio"
+msgstr "Son"
+
+#: mapping.py:62
+msgid "authPassword"
+msgstr ""
+
+#: mapping.py:66
+msgid "authorityRevocationList"
+msgstr ""
+
+#: mapping.py:71
+msgid "authzFrom saslAuthzFrom"
+msgstr ""
+
+#: mapping.py:76
+msgid "authzTo saslAuthzTo"
+msgstr ""
+
+#: mapping.py:80
+msgid "bootFile"
+msgstr ""
+
+#: mapping.py:84
+msgid "bootParameter"
+msgstr ""
+
+#: mapping.py:88
+msgid "buildingName"
+msgstr ""
+
+#: mapping.py:92
+msgid "businessCategory"
+msgstr ""
+
+#: mapping.py:98
+msgid "Country"
+msgstr "Pays"
+
+#: mapping.py:101
+msgid "cACertificate"
+msgstr ""
+
+#: mapping.py:105
+msgid "cNAMERecord"
+msgstr ""
+
+#: mapping.py:109
+msgid "carLicense"
+msgstr ""
+
+#: mapping.py:114
+msgid "certificateRevocationList"
+msgstr ""
+
+#: mapping.py:118
+msgid "children"
+msgstr ""
+
+#: mapping.py:123
+msgid "Name"
+msgstr "Nom"
+
+#: mapping.py:130
+msgid "co friendlyCountryName"
+msgstr "Pays"
+
+#: mapping.py:136
+msgid "collectiveAttributeSubentries"
+msgstr ""
+
+#: mapping.py:140
+msgid "collectiveAttributeSubentry"
+msgstr ""
+
+#: mapping.py:143
+msgid "collectiveExclusions"
+msgstr ""
+
+#: mapping.py:147
+msgid "configContext"
+msgstr ""
+
+#: mapping.py:151
+msgid "contextCSN"
+msgstr ""
+
+#: mapping.py:155
+msgid "createTimestamp"
+msgstr ""
+
+#: mapping.py:159
+msgid "creatorsName"
+msgstr ""
+
+#: mapping.py:163
+msgid "crossCertificatePair"
+msgstr ""
+
+#: mapping.py:167
+msgid "dITContentRules"
+msgstr ""
+
+#: mapping.py:171
+msgid "dITRedirect"
+msgstr ""
+
+#: mapping.py:175
+msgid "dITStructureRules"
+msgstr ""
+
+#: mapping.py:179
+msgid "dSAQuality"
+msgstr ""
+
+#: mapping.py:184
+msgid "Domain component"
+msgstr ""
+
+#: mapping.py:187
+msgid "deltaRevocationList"
+msgstr ""
+
+#: mapping.py:191
+msgid "departmentNumber"
+msgstr ""
+
+#: mapping.py:196
+#, fuzzy
+msgid "Description"
+msgstr "Administration"
+
+#: mapping.py:201
+msgid "destinationIndicator"
+msgstr ""
+
+#: mapping.py:206
+#, fuzzy
+msgid "Display name"
+msgstr "Nom affiché"
+
+#: mapping.py:212
+msgid "Distinguished name"
+msgstr "Nom unique"
+
+#: mapping.py:216
+msgid "dmdName"
+msgstr ""
+
+#: mapping.py:219
+msgid "dnQualifier"
+msgstr ""
+
+#: mapping.py:223
+msgid "Document autor"
+msgstr "Auteur du document"
+
+#: mapping.py:227
+msgid "Document identifier"
+msgstr "Identificateur du document"
+
+#: mapping.py:231
+#, fuzzy
+msgid "Document location"
+msgstr "Emplacement du docuemtn"
+
+#: mapping.py:235
+msgid "Document publisher"
+msgstr "Éditeur du document"
+
+#: mapping.py:239
+msgid "Document title"
+msgstr "Titre"
+
+#: mapping.py:243
+msgid "Document version"
+msgstr "Version"
+
+#: mapping.py:248
+msgid "drink favouriteDrink"
+msgstr "boisson"
+
+#: mapping.py:251
+msgid "dynamicObject"
+msgstr ""
+
+#: mapping.py:254
+msgid "dynamicSubtrees"
+msgstr ""
+
+#: mapping.py:258
+msgid "eduOrgHomePageURI"
+msgstr ""
+
+#: mapping.py:262
+msgid "eduOrgIdentityAuthNPolicyURI"
+msgstr ""
+
+#: mapping.py:266
+msgid "eduOrgLegalName"
+msgstr ""
+
+#: mapping.py:270
+msgid "eduOrgSuperiorURI"
+msgstr ""
+
+#: mapping.py:274
+msgid "eduOrgWhitePagesURI"
+msgstr ""
+
+#: mapping.py:278
+msgid "eduPersonAffiliation"
+msgstr ""
+
+#: mapping.py:282
+msgid "eduPersonAssurance"
+msgstr ""
+
+#: mapping.py:286
+msgid "eduPersonEntitlement"
+msgstr ""
+
+#: mapping.py:290
+msgid "eduPersonNickname"
+msgstr ""
+
+#: mapping.py:294
+msgid "eduPersonOrgDN"
+msgstr ""
+
+#: mapping.py:298
+msgid "eduPersonOrgUnitDN"
+msgstr ""
+
+#: mapping.py:302
+msgid "eduPersonPrimaryAffiliation"
+msgstr ""
+
+#: mapping.py:306
+msgid "eduPersonPrimaryOrgUnitDN"
+msgstr ""
+
+#: mapping.py:310
+msgid "eduPersonPrincipalName"
+msgstr ""
+
+#: mapping.py:314
+msgid "eduPersonScopedAffiliation"
+msgstr ""
+
+#: mapping.py:318
+msgid "eduPersonTargetedID"
+msgstr ""
+
+#: mapping.py:322
+msgid "Employee number"
+msgstr ""
+
+#: mapping.py:327
+msgid " Employee type"
+msgstr ""
+
+#: mapping.py:332
+msgid "enhancedSearchGuide"
+msgstr ""
+
+#: mapping.py:336
+msgid "Entry"
+msgstr ""
+
+#: mapping.py:340
+msgid "entryCSN"
+msgstr ""
+
+#: mapping.py:344
+msgid "entryDN"
+msgstr ""
+
+#: mapping.py:348
+msgid "entryTtl"
+msgstr ""
+
+#: mapping.py:352
+msgid "entryUUID"
+msgstr ""
+
+#: mapping.py:357
+msgid "extensibleObject"
+msgstr ""
+
+#: mapping.py:361
+msgid "fax facsimileTelephoneNumber"
+msgstr ""
+
+#: mapping.py:364
+msgid "gecos"
+msgstr ""
+
+#: mapping.py:368
+msgid "generationQualifier"
+msgstr ""
+
+#: mapping.py:371
+msgid "GID number"
+msgstr ""
+
+#: mapping.py:375
+msgid "glue"
+msgstr ""
+
+#: mapping.py:378
+msgid "hasSubordinates"
+msgstr ""
+
+#: mapping.py:382
+msgid "homeDirectory"
+msgstr ""
+
+#: mapping.py:387
+msgid "homePhone homeTelephoneNumber"
+msgstr ""
+
+#: mapping.py:393
+#, fuzzy
+msgid "homePostalAddress"
+msgstr "Adresse postale"
+
+#: mapping.py:398
+msgid "host"
+msgstr ""
+
+#: mapping.py:402
+msgid "houseIdentifier"
+msgstr ""
+
+#: mapping.py:406
+msgid "info"
+msgstr ""
+
+#: mapping.py:410
+msgid "Initials"
+msgstr ""
+
+#: mapping.py:414
+msgid "internationaliSDNNumber"
+msgstr ""
+
+#: mapping.py:419
+msgid "ipHostNumber"
+msgstr ""
+
+#: mapping.py:423
+msgid "ipNetmaskNumber"
+msgstr ""
+
+#: mapping.py:427
+msgid "ipNetworkNumber"
+msgstr ""
+
+#: mapping.py:431
+msgid "ipProtocolNumber"
+msgstr ""
+
+#: mapping.py:435
+#, fuzzy
+msgid "ipServicePort"
+msgstr "Services"
+
+#: mapping.py:439
+msgid "ipServiceProtocolSUPname"
+msgstr ""
+
+#: mapping.py:442
+msgid "janetMailbox"
+msgstr ""
+
+#: mapping.py:446
+msgid "jpegPhoto"
+msgstr "Photo"
+
+#: mapping.py:452
+msgid "knowledgeInformation"
+msgstr ""
+
+#: mapping.py:457
+msgid "Location"
+msgstr "Localisation"
+
+#: mapping.py:463
+msgid "labeledURI"
+msgstr ""
+
+#: mapping.py:468
+msgid "ldapSyntaxes"
+msgstr ""
+
+#: mapping.py:472
+msgid "loginShell"
+msgstr ""
+
+#: mapping.py:476
+msgid "mDRecord"
+msgstr ""
+
+#: mapping.py:480
+msgid "mXRecord"
+msgstr ""
+
+#: mapping.py:484
+#, fuzzy
+msgid "macAddress"
+msgstr "Adresse MAC"
+
+#: mapping.py:489
+msgid "Email"
+msgstr "Adresse électronique"
+
+#: mapping.py:494
+#, fuzzy
+msgid "mailForwardingAddress"
+msgstr ""
+
+#: mapping.py:498
+msgid "mailHost"
+msgstr ""
+
+#: mapping.py:502
+#, fuzzy
+msgid "mailLocalAddress"
+msgstr ""
+
+#: mapping.py:506
+msgid "mailPreferenceOption"
+msgstr ""
+
+#: mapping.py:510
+#, fuzzy
+msgid "mailRoutingAddress"
+msgstr ""
+
+#: mapping.py:514
+msgid "manager"
+msgstr ""
+
+#: mapping.py:519
+msgid "matchingRuleUse"
+msgstr ""
+
+#: mapping.py:523
+msgid "matchingRules"
+msgstr ""
+
+#: mapping.py:527
+msgid "member"
+msgstr ""
+
+#: mapping.py:530
+msgid "memberNisNetgroup"
+msgstr ""
+
+#: mapping.py:534
+msgid "memberUid"
+msgstr ""
+
+#: mapping.py:539
+msgid "mobile mobileTelephoneNumber"
+msgstr ""
+
+#: mapping.py:545
+msgid "modifiersName"
+msgstr ""
+
+#: mapping.py:549
+msgid "modifyTimestamp"
+msgstr ""
+
+#: mapping.py:553
+msgid "monitorContext"
+msgstr ""
+
+#: mapping.py:557
+msgid "nSRecord"
+msgstr ""
+
+#: mapping.py:561
+#, fuzzy
+msgid "name"
+msgstr "Nom complet"
+
+#: mapping.py:565
+msgid "nameForms"
+msgstr ""
+
+#: mapping.py:569
+msgid "namingCSN"
+msgstr ""
+
+#: mapping.py:573
+msgid "namingContexts"
+msgstr ""
+
+#: mapping.py:577
+msgid "nisMapEntry"
+msgstr ""
+
+#: mapping.py:581
+msgid "nisMapNameSUPname"
+msgstr ""
+
+#: mapping.py:584
+msgid "nisNetgroupTriple"
+msgstr ""
+
+#: mapping.py:594
+msgid "Object Class"
+msgstr ""
+
+#: mapping.py:599
+msgid "objectClasses"
+msgstr ""
+
+#: mapping.py:603
+msgid "oncRpcNumber"
+msgstr ""
+
+#: mapping.py:607
+#, fuzzy
+msgid "organizationalStatus"
+msgstr ""
+
+#: mapping.py:611
+msgid "otherMailbox"
+msgstr ""
+
+#: mapping.py:615
+#, fuzzy
+msgid "Organizational unit"
+msgstr "Département"
+
+#: mapping.py:619
+msgid "owner"
+msgstr ""
+
+#: mapping.py:623
+msgid "pager pagerTelephoneNumber"
+msgstr ""
+
+#: mapping.py:627
+msgid "personalSignature"
+msgstr ""
+
+#: mapping.py:631
+msgid "personalTitle"
+msgstr ""
+
+#: mapping.py:635
+msgid "Photo"
+msgstr "Photo"
+
+#: mapping.py:640
+msgid "physicalDeliveryOfficeName"
+msgstr ""
+
+#: mapping.py:645
+msgid "postOfficeBox"
+msgstr ""
+
+#: mapping.py:656
+#, fuzzy
+msgid "Postal code"
+msgstr "Adresse postale"
+
+#: mapping.py:663
+msgid "preferredDeliveryMethod"
+msgstr ""
+
+#: mapping.py:668
+msgid "Preferred Language"
+msgstr "Langue préférée"
+
+#: mapping.py:674
+msgid "presentationAddress"
+msgstr ""
+
+#: mapping.py:678
+msgid "protocolInformation"
+msgstr ""
+
+#: mapping.py:682
+msgid "pseudonym"
+msgstr ""
+
+#: mapping.py:685
+msgid "ref"
+msgstr ""
+
+#: mapping.py:689
+msgid "referral"
+msgstr ""
+
+#: mapping.py:692
+msgid "registeredAddress"
+msgstr ""
+
+#: mapping.py:700
+msgid "Role"
+msgstr "Rôle"
+
+#: mapping.py:705
+msgid "roleOccupant"
+msgstr ""
+
+#: mapping.py:708
+msgid "roomNumber"
+msgstr ""
+
+#: mapping.py:713
+msgid "sOARecord"
+msgstr ""
+
+#: mapping.py:717
+msgid "The persons home organization using the domain of the organization"
+msgstr ""
+
+#: mapping.py:725
+msgid "searchGuide"
+msgstr ""
+
+#: mapping.py:729
+msgid "secretary"
+msgstr ""
+
+#: mapping.py:734
+msgid "seeAlso"
+msgstr "Voir aussi"
+
+#: mapping.py:738
+msgid "serialNumber"
+msgstr ""
+
+#: mapping.py:742
+msgid "shadowExpire"
+msgstr ""
+
+#: mapping.py:746
+msgid "shadowFlag"
+msgstr ""
+
+#: mapping.py:750
+msgid "shadowInactive"
+msgstr ""
+
+#: mapping.py:754
+msgid "shadowLastChange"
+msgstr ""
+
+#: mapping.py:758
+msgid "shadowMax"
+msgstr ""
+
+#: mapping.py:762
+msgid "shadowMin"
+msgstr ""
+
+#: mapping.py:766
+msgid "shadowWarning"
+msgstr ""
+
+#: mapping.py:770
+msgid "singleLevelQuality"
+msgstr ""
+
+#: mapping.py:783
+msgid "State or province"
+msgstr "État"
+
+#: mapping.py:790
+msgid "street streetAddress"
+msgstr ""
+
+#: mapping.py:796
+msgid "structuralObjectClass"
+msgstr ""
+
+#: mapping.py:800
+msgid "subentry"
+msgstr ""
+
+#: mapping.py:803
+msgid "subschema"
+msgstr ""
+
+#: mapping.py:806
+msgid "subschemaSubentry"
+msgstr ""
+
+#: mapping.py:810
+msgid "subtreeMaximumQuality"
+msgstr ""
+
+#: mapping.py:814
+msgid "subtreeMinimumQuality"
+msgstr ""
+
+#: mapping.py:818
+msgid "subtreeSpecification"
+msgstr ""
+
+#: mapping.py:822
+msgid "supannActivite"
+msgstr ""
+
+#: mapping.py:826
+msgid "supannAffectation"
+msgstr ""
+
+#: mapping.py:830
+msgid "supannAliasLogin"
+msgstr ""
+
+#: mapping.py:834
+msgid "supannAutreMail"
+msgstr ""
+
+#: mapping.py:838
+msgid "supannAutreTelephone"
+msgstr ""
+
+#: mapping.py:842
+msgid "supannCivilite"
+msgstr ""
+
+#: mapping.py:846
+msgid "supannCodeEntite"
+msgstr ""
+
+#: mapping.py:850
+msgid "supannCodeEntiteParent"
+msgstr ""
+
+#: mapping.py:854
+msgid "supannCodeINE"
+msgstr ""
+
+#: mapping.py:858
+msgid "supannEmpCorps"
+msgstr ""
+
+#: mapping.py:862
+msgid "supannEmpId"
+msgstr ""
+
+#: mapping.py:866
+msgid "supannEntiteAffectation"
+msgstr ""
+
+#: mapping.py:870
+msgid "supannEntiteAffectationPrincipale"
+msgstr ""
+
+#: mapping.py:874
+msgid "supannEtablissement"
+msgstr ""
+
+#: mapping.py:878
+msgid "supannEtuAnneeInscription"
+msgstr ""
+
+#: mapping.py:882
+msgid "supannEtuCursusAnnee"
+msgstr ""
+
+#: mapping.py:886
+msgid "supannEtuDiplome"
+msgstr ""
+
+#: mapping.py:890
+msgid "supannEtuElementPedagogique"
+msgstr ""
+
+#: mapping.py:894
+msgid "supannEtuEtape"
+msgstr ""
+
+#: mapping.py:898
+msgid "supannEtuId"
+msgstr ""
+
+#: mapping.py:902
+msgid "supannEtuInscription"
+msgstr ""
+
+#: mapping.py:906
+msgid "supannEtuRegimeInscription"
+msgstr ""
+
+#: mapping.py:910
+msgid "supannEtuSecteurDisciplinaire"
+msgstr ""
+
+#: mapping.py:914
+msgid "supannEtuTypeDiplome"
+msgstr ""
+
+#: mapping.py:918
+msgid "supannGroupeAdminDN"
+msgstr ""
+
+#: mapping.py:922
+msgid "supannGroupeDateFin"
+msgstr ""
+
+#: mapping.py:926
+msgid "supannGroupeLecteurDN"
+msgstr ""
+
+#: mapping.py:930
+msgid "supannListeRouge"
+msgstr ""
+
+#: mapping.py:934
+msgid "supannMailPerso"
+msgstr ""
+
+#: mapping.py:938
+msgid "supannOrganisme"
+msgstr ""
+
+#: mapping.py:942
+msgid "supannParrainDN"
+msgstr ""
+
+#: mapping.py:946
+msgid "supannRefId"
+msgstr ""
+
+#: mapping.py:950
+msgid "supannRole"
+msgstr ""
+
+#: mapping.py:954
+msgid "supannRoleEntite"
+msgstr ""
+
+#: mapping.py:958
+msgid "supannRoleGenerique"
+msgstr ""
+
+#: mapping.py:962
+msgid "supannTypeEntite"
+msgstr ""
+
+#: mapping.py:966
+msgid "supannTypeEntiteAffectation"
+msgstr ""
+
+#: mapping.py:970
+msgid "superiorUUID"
+msgstr ""
+
+#: mapping.py:974
+msgid "supportedAlgorithms"
+msgstr ""
+
+#: mapping.py:978
+msgid "supportedApplicationContext"
+msgstr ""
+
+#: mapping.py:982
+msgid "supportedAuthPasswordSchemes"
+msgstr ""
+
+#: mapping.py:986
+msgid "supportedControl"
+msgstr ""
+
+#: mapping.py:990
+msgid "supportedExtension"
+msgstr ""
+
+#: mapping.py:994
+msgid "supportedFeatures"
+msgstr ""
+
+#: mapping.py:998
+msgid "supportedLDAPVersion"
+msgstr ""
+
+#: mapping.py:1002
+msgid "supportedSASLMechanisms"
+msgstr ""
+
+#: mapping.py:1006
+msgid "syncConsumerSubentry"
+msgstr ""
+
+#: mapping.py:1009
+msgid "syncProviderSubentry"
+msgstr ""
+
+#: mapping.py:1012
+msgid "syncTimestamp"
+msgstr ""
+
+#: mapping.py:1016
+msgid "syncreplCookie"
+msgstr ""
+
+#: mapping.py:1028
+msgid "teletexTerminalIdentifier"
+msgstr ""
+
+#: mapping.py:1033
+msgid "telexNumber"
+msgstr ""
+
+#: mapping.py:1038
+msgid "textEncodedORAddress"
+msgstr ""
+
+#: mapping.py:1042
+msgid "title"
+msgstr ""
+
+#: mapping.py:1046
+msgid "top"
+msgstr ""
+
+#: mapping.py:1050
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: mapping.py:1056
+msgid "uidNumber"
+msgstr ""
+
+#: mapping.py:1060
+msgid "uniqueIdentifier"
+msgstr "Identifiant unique"
+
+#: mapping.py:1064
+msgid "uniqueMember"
+msgstr ""
+
+#: mapping.py:1068
+msgid "userCertificate"
+msgstr ""
+
+#: mapping.py:1073
+msgid "userClass"
+msgstr ""
+
+#: mapping.py:1082
+#, fuzzy
+msgid "Password"
+msgstr "Mot de passe:"
+
+#: mapping.py:1088
+msgid "userSMIMECertificate"
+msgstr ""
+
+#: mapping.py:1093
+msgid "vendorName"
+msgstr ""
+
+#: mapping.py:1097
+msgid "vendorVersion"
+msgstr ""
+
+#: ldap_profile/templates/base.html:20
+msgid "Versatile Identity Management Server"
+msgstr "Serveur d'identité versatile"
+
+#: ldap_profile/templates/base.html:30
+#, python-format
+msgid "Hello %(username)s."
+msgstr "Bonjour %(username)s"
+
+#: ldap_profile/templates/base.html:31
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: ldap_profile/templates/edit_ldap_profile.html:4
+#: ldap_profile/templates/ldap_profile.html:33
+msgid "Edit profile"
+msgstr "Modifier le profil"
+
+#: ldap_profile/templates/edit_ldap_profile.html:10
+msgid "Modify"
+msgstr "Modifier"
+
+#: ldap_profile/templates/homepage.html:5
+msgid "Authentic"
+msgstr "Authentic"
+
+#: ldap_profile/templates/homepage.html:11
+msgid "View profile"
+msgstr "Afficher le profil"
+
+#: ldap_profile/templates/homepage.html:16
+msgid "Services"
+msgstr "Services"
+
+#: ldap_profile/templates/homepage.html:46 templates/idp/homepage.html:89
+msgid "Administration"
+msgstr "Administration"
+
+#: ldap_profile/templates/ldap_profile.html:5
+msgid "Authentic - View Profile"
+msgstr "Authentic - Affiche le profil"
+
+#: ldap_profile/templates/ldap_profile.html:10
+msgid "View Profile"
+msgstr "Profil"
+
+#: ldap_profile/templates/ldap_profile.html:32
+msgid "Change password"
+msgstr "Modifier le mot de passe"
+
+#: ldap_profile/templates/ldap_profile.html:35
+msgid "Back"
+msgstr "Retour"
+
+#: templates/activation_complete.html:5
+msgid "Votre compte est maintenant activé"
+msgstr ""
+
+#: templates/base.html:62
+msgid "Changement de mot de passe"
+msgstr ""
+
+#: templates/reinitialisation-du-mot-de-passe.html:20
+#: templates/registration/password_reset_form.html:22
+msgid "Mot de passe perdu"
+msgstr ""
+
+#: templates/reinitialisation-du-mot-de-passe.html:30
+#: templates/registration/password_change_form.html:12
+#: templates/registration/password_reset_confirm.html:15
+#: templates/registration/password_reset_form.html:32
+#: templates/registration/registration_form.html:21
+msgid "Envoi"
+msgstr ""
+
+#: templates/auth/login_form.html:16
+msgid "Mot de passe oublié ?"
+msgstr ""
+
+#: templates/authopenid/password_change_form.html:50
+#: templates/authopenid/password_change_form.html:65
+msgid "New password:"
+msgstr "Nouveau mot de passe:"
+
+#: templates/authopenid/password_change_form.html:52
+#: templates/authopenid/password_change_form.html:67
+msgid "Confirm password:"
+msgstr "Confirmer le mot de passe"
+
+#: templates/idp/homepage.html:21
+msgid "Account Management"
+msgstr "Gestion du compte"
+
+#: templates/idp/logout.html:23 templates/saml/post_form.html:28
+msgid "Cliquez ici"
+msgstr ""
+
+#: templates/registration/activate.html:5
+msgid "Account activation"
+msgstr "Activation du compte"
+
+#: templates/registration/activate.html:12
+msgid "Compte activé"
+msgstr ""
+
+#: templates/registration/activate.html:14
+#: templates/registration/password_reset_complete.html:12
+msgid "Connexion"
+msgstr ""
+
+#: templates/registration/activate.html:18
+msgid "Échec d'activation du compte"
+msgstr ""
+
+#: templates/registration/password_change_done.html:5
+#: templates/registration/password_change_form.html:5
+msgid "Changing password"
+msgstr "Modification du mot de passe"
+
+#: templates/registration/password_change_done.html:9
+msgid "Mot de passe changé"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:5
+msgid "Password reset successfully"
+msgstr "Mot de passe réinitialisé"
+
+#: templates/registration/password_reset_complete.html:10
+msgid "Mot de passe réinitialisé"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_done.html:5
+#: templates/registration/password_reset_form.html:5
+msgid "Resetting password"
+msgstr "Réinitialisation du mot de passe"
+
+#: templates/registration/password_reset_confirm.html:20
+msgid "Échec de réinitialisation"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:10
+msgid "Un courriel avec les instruction de réinitialisation a été envoyé."
+msgstr ""
+
+#: templates/registration/password_reset_email.html:2
+#, python-format
+msgid "Réinitialisation du mot de passe sur %(site_name)s"
+msgstr ""
+
+#: templates/registration/registration_complete.html:5
+msgid "Successful registration"
+msgstr ""
+
+#: templates/registration/registration_complete.html:9
+msgid ""
+"Votre compte est maintenant créé. Un courriel d'activation a été envoyé."
+msgstr ""
+
+#: templates/registration/registration_complete.html:10
+msgid "Retour"
+msgstr ""
+
+#: templates/registration/registration_form.html:5
+#, fuzzy
+msgid "Registration"
+msgstr "Administration"
+
+#: templates/registration/registration_form.html:16
+msgid "Création de compte"
+msgstr ""
+
+#~ msgid "Profile"
+#~ msgstr "Profil"

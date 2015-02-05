@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load i18n %}
+{% load ldap_filters %}
 
 {% block title %}
 {% trans "Authentic - View Profile" %}
@@ -8,25 +9,25 @@
 
 {% block content %}
 <h2>{% trans "View Profile" %}</h2>
-<h3>{% trans "Profile" %}</h3>
 <div id="profile">
     {% if profile %}
 <dl>
-{% for key, values in profile %}
-{% if values.0|length > 0 %}
-    <dt>{{ key }}</dt>
-    <dd>
-    {% if values|length == 1 %}
-        {{ values.0 }}
-    {% else %}
-        <ul>
-            {% for value in values %}
-                <li>{{ value }}</li>
-            {% endfor %}
-        </ul>
+{% for label, values in profile %}
+    {% if values|length > 0 %}
+        <dt>{{ label }}</dt>
+        <dd>
+            {{ values|get_type }}
+            {% if values|get_type == 'list' %}
+                <ul>
+                    {% for value in values %}
+                        <li>{{ value }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                {{ values }}
+            {% endif %}
+        </dd>
     {% endif %}
-    </dd>
-{% endif %}
 {% endfor %}
 </dl>
 {% endif %}
