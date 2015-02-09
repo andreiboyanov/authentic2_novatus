@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-05 14:18+0100\n"
+"POT-Creation-Date: 2015-02-09 09:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: mapping-novatus.py:872 mapping.py:775
+#: mapping-novatus.py:872 mapping.py:776
 msgid "Last name"
 msgstr "Nom de famille"
 
-#: mapping-novatus.py:969 mapping.py:589
+#: mapping-novatus.py:969 mapping.py:590
 msgid "Organization"
 msgstr "Organisation"
 
-#: mapping-novatus.py:1009 mapping.py:650
+#: mapping-novatus.py:1009 mapping.py:651
 msgid "Postal address"
 msgstr "Adresse postale"
 
-#: mapping-novatus.py:1054 mapping.py:1020
+#: mapping-novatus.py:1054 mapping.py:1021
 msgid "Phone"
 msgstr "Téléphone"
 
-#: mapping-novatus.py:1216 mapping.py:11
+#: mapping-novatus.py:1216 mapping.py:12
 msgid "First name"
 msgstr "Prénom"
 
@@ -41,1011 +41,1011 @@ msgstr "Prénom"
 msgid "Email Address"
 msgstr "Adresse électronique"
 
-#: mapping.py:22
+#: mapping.py:23
 msgid "OpenLDAProotDSE LDAProotDSE"
 msgstr "OpenLDAProotDSE LDAProotDSE"
 
-#: mapping.py:25
+#: mapping.py:26
 msgid "aRecord"
 msgstr ""
 
-#: mapping.py:29
+#: mapping.py:30
 #, fuzzy
 msgid "administrativeRole"
 msgstr "Administration"
 
-#: mapping.py:33
+#: mapping.py:34
 msgid "alias"
 msgstr "alias"
 
-#: mapping.py:37
+#: mapping.py:38
 msgid "aliasedObjectName aliasedEntryName"
 msgstr ""
 
-#: mapping.py:41
+#: mapping.py:42
 msgid "altServer"
 msgstr ""
 
-#: mapping.py:45
+#: mapping.py:46
 msgid "associatedDomain"
 msgstr ""
 
-#: mapping.py:49
+#: mapping.py:50
 msgid "associatedName"
 msgstr ""
 
-#: mapping.py:53
+#: mapping.py:54
 msgid "attributeTypes"
 msgstr ""
 
-#: mapping.py:57
+#: mapping.py:58
 msgid "Audio"
 msgstr "Son"
 
-#: mapping.py:62
+#: mapping.py:63
 msgid "authPassword"
 msgstr ""
 
-#: mapping.py:66
+#: mapping.py:67
 msgid "authorityRevocationList"
 msgstr ""
 
-#: mapping.py:71
+#: mapping.py:72
 msgid "authzFrom saslAuthzFrom"
 msgstr ""
 
-#: mapping.py:76
+#: mapping.py:77
 msgid "authzTo saslAuthzTo"
 msgstr ""
 
-#: mapping.py:80
+#: mapping.py:81
 msgid "bootFile"
 msgstr ""
 
-#: mapping.py:84
+#: mapping.py:85
 msgid "bootParameter"
 msgstr ""
 
-#: mapping.py:88
+#: mapping.py:89
 msgid "buildingName"
-msgstr ""
+msgstr "Bâtiment"
 
-#: mapping.py:92
+#: mapping.py:93
 msgid "businessCategory"
-msgstr ""
+msgstr "Type de contact"
 
-#: mapping.py:98
+#: mapping.py:99
 msgid "Country"
 msgstr "Pays"
 
-#: mapping.py:101
+#: mapping.py:102
 msgid "cACertificate"
-msgstr ""
+msgstr "Certificat autoritatif"
 
-#: mapping.py:105
+#: mapping.py:106
 msgid "cNAMERecord"
 msgstr ""
 
-#: mapping.py:109
+#: mapping.py:110
 msgid "carLicense"
-msgstr ""
+msgstr "Permis de conduire"
 
-#: mapping.py:114
+#: mapping.py:115
 msgid "certificateRevocationList"
 msgstr ""
 
-#: mapping.py:118
+#: mapping.py:119
 msgid "children"
 msgstr ""
 
-#: mapping.py:123
+#: mapping.py:124
 msgid "Name"
 msgstr "Nom"
 
-#: mapping.py:130
+#: mapping.py:131
 msgid "co friendlyCountryName"
 msgstr "Pays"
 
-#: mapping.py:136
+#: mapping.py:137
 msgid "collectiveAttributeSubentries"
 msgstr ""
 
-#: mapping.py:140
+#: mapping.py:141
 msgid "collectiveAttributeSubentry"
 msgstr ""
 
-#: mapping.py:143
+#: mapping.py:144
 msgid "collectiveExclusions"
 msgstr ""
 
-#: mapping.py:147
+#: mapping.py:148
 msgid "configContext"
 msgstr ""
 
-#: mapping.py:151
+#: mapping.py:152
 msgid "contextCSN"
 msgstr ""
 
-#: mapping.py:155
+#: mapping.py:156
 msgid "createTimestamp"
 msgstr ""
 
-#: mapping.py:159
+#: mapping.py:160
 msgid "creatorsName"
 msgstr ""
 
-#: mapping.py:163
+#: mapping.py:164
 msgid "crossCertificatePair"
 msgstr ""
 
-#: mapping.py:167
+#: mapping.py:168
 msgid "dITContentRules"
 msgstr ""
 
-#: mapping.py:171
+#: mapping.py:172
 msgid "dITRedirect"
 msgstr ""
 
-#: mapping.py:175
+#: mapping.py:176
 msgid "dITStructureRules"
 msgstr ""
 
-#: mapping.py:179
+#: mapping.py:180
 msgid "dSAQuality"
 msgstr ""
 
-#: mapping.py:184
+#: mapping.py:185
 msgid "Domain component"
 msgstr ""
 
-#: mapping.py:187
+#: mapping.py:188
 msgid "deltaRevocationList"
 msgstr ""
 
-#: mapping.py:191
+#: mapping.py:192
 msgid "departmentNumber"
 msgstr ""
 
-#: mapping.py:196
+#: mapping.py:197
 #, fuzzy
 msgid "Description"
 msgstr "Administration"
 
-#: mapping.py:201
+#: mapping.py:202
 msgid "destinationIndicator"
 msgstr ""
 
-#: mapping.py:206
+#: mapping.py:207
 #, fuzzy
 msgid "Display name"
 msgstr "Nom affiché"
 
-#: mapping.py:212
+#: mapping.py:213
 msgid "Distinguished name"
 msgstr "Nom unique"
 
-#: mapping.py:216
+#: mapping.py:217
 msgid "dmdName"
 msgstr ""
 
-#: mapping.py:219
+#: mapping.py:220
 msgid "dnQualifier"
 msgstr ""
 
-#: mapping.py:223
+#: mapping.py:224
 msgid "Document autor"
 msgstr "Auteur du document"
 
-#: mapping.py:227
+#: mapping.py:228
 msgid "Document identifier"
 msgstr "Identificateur du document"
 
-#: mapping.py:231
+#: mapping.py:232
 #, fuzzy
 msgid "Document location"
-msgstr "Emplacement du docuemtn"
+msgstr "Emplacement du document"
 
-#: mapping.py:235
+#: mapping.py:236
 msgid "Document publisher"
 msgstr "Éditeur du document"
 
-#: mapping.py:239
+#: mapping.py:240
 msgid "Document title"
 msgstr "Titre"
 
-#: mapping.py:243
+#: mapping.py:244
 msgid "Document version"
 msgstr "Version"
 
-#: mapping.py:248
+#: mapping.py:249
 msgid "drink favouriteDrink"
 msgstr "boisson"
 
-#: mapping.py:251
+#: mapping.py:252
 msgid "dynamicObject"
 msgstr ""
 
-#: mapping.py:254
+#: mapping.py:255
 msgid "dynamicSubtrees"
 msgstr ""
 
-#: mapping.py:258
+#: mapping.py:259
 msgid "eduOrgHomePageURI"
 msgstr ""
 
-#: mapping.py:262
+#: mapping.py:263
 msgid "eduOrgIdentityAuthNPolicyURI"
 msgstr ""
 
-#: mapping.py:266
+#: mapping.py:267
 msgid "eduOrgLegalName"
 msgstr ""
 
-#: mapping.py:270
+#: mapping.py:271
 msgid "eduOrgSuperiorURI"
 msgstr ""
 
-#: mapping.py:274
+#: mapping.py:275
 msgid "eduOrgWhitePagesURI"
 msgstr ""
 
-#: mapping.py:278
+#: mapping.py:279
 msgid "eduPersonAffiliation"
 msgstr ""
 
-#: mapping.py:282
+#: mapping.py:283
 msgid "eduPersonAssurance"
 msgstr ""
 
-#: mapping.py:286
+#: mapping.py:287
 msgid "eduPersonEntitlement"
 msgstr ""
 
-#: mapping.py:290
+#: mapping.py:291
 msgid "eduPersonNickname"
 msgstr ""
 
-#: mapping.py:294
+#: mapping.py:295
 msgid "eduPersonOrgDN"
 msgstr ""
 
-#: mapping.py:298
+#: mapping.py:299
 msgid "eduPersonOrgUnitDN"
 msgstr ""
 
-#: mapping.py:302
+#: mapping.py:303
 msgid "eduPersonPrimaryAffiliation"
 msgstr ""
 
-#: mapping.py:306
+#: mapping.py:307
 msgid "eduPersonPrimaryOrgUnitDN"
 msgstr ""
 
-#: mapping.py:310
+#: mapping.py:311
 msgid "eduPersonPrincipalName"
 msgstr ""
 
-#: mapping.py:314
+#: mapping.py:315
 msgid "eduPersonScopedAffiliation"
 msgstr ""
 
-#: mapping.py:318
+#: mapping.py:319
 msgid "eduPersonTargetedID"
 msgstr ""
 
-#: mapping.py:322
+#: mapping.py:323
 msgid "Employee number"
 msgstr ""
 
-#: mapping.py:327
+#: mapping.py:328
 msgid " Employee type"
 msgstr ""
 
-#: mapping.py:332
+#: mapping.py:333
 msgid "enhancedSearchGuide"
 msgstr ""
 
-#: mapping.py:336
+#: mapping.py:337
 msgid "Entry"
 msgstr ""
 
-#: mapping.py:340
+#: mapping.py:341
 msgid "entryCSN"
 msgstr ""
 
-#: mapping.py:344
+#: mapping.py:345
 msgid "entryDN"
 msgstr ""
 
-#: mapping.py:348
+#: mapping.py:349
 msgid "entryTtl"
 msgstr ""
 
-#: mapping.py:352
+#: mapping.py:353
 msgid "entryUUID"
 msgstr ""
 
-#: mapping.py:357
+#: mapping.py:358
 msgid "extensibleObject"
 msgstr ""
 
-#: mapping.py:361
+#: mapping.py:362
 msgid "fax facsimileTelephoneNumber"
 msgstr ""
 
-#: mapping.py:364
+#: mapping.py:365
 msgid "gecos"
 msgstr ""
 
-#: mapping.py:368
+#: mapping.py:369
 msgid "generationQualifier"
 msgstr ""
 
-#: mapping.py:371
+#: mapping.py:372
 msgid "GID number"
 msgstr ""
 
-#: mapping.py:375
+#: mapping.py:376
 msgid "glue"
 msgstr ""
 
-#: mapping.py:378
+#: mapping.py:379
 msgid "hasSubordinates"
 msgstr ""
 
-#: mapping.py:382
+#: mapping.py:383
 msgid "homeDirectory"
 msgstr ""
 
-#: mapping.py:387
+#: mapping.py:388
 msgid "homePhone homeTelephoneNumber"
 msgstr ""
 
-#: mapping.py:393
+#: mapping.py:394
 #, fuzzy
 msgid "homePostalAddress"
 msgstr "Adresse postale"
 
-#: mapping.py:398
+#: mapping.py:399
 msgid "host"
 msgstr ""
 
-#: mapping.py:402
+#: mapping.py:403
 msgid "houseIdentifier"
 msgstr ""
 
-#: mapping.py:406
+#: mapping.py:407
 msgid "info"
 msgstr ""
 
-#: mapping.py:410
+#: mapping.py:411
 msgid "Initials"
 msgstr ""
 
-#: mapping.py:414
+#: mapping.py:415
 msgid "internationaliSDNNumber"
 msgstr ""
 
-#: mapping.py:419
+#: mapping.py:420
 msgid "ipHostNumber"
 msgstr ""
 
-#: mapping.py:423
+#: mapping.py:424
 msgid "ipNetmaskNumber"
 msgstr ""
 
-#: mapping.py:427
+#: mapping.py:428
 msgid "ipNetworkNumber"
 msgstr ""
 
-#: mapping.py:431
+#: mapping.py:432
 msgid "ipProtocolNumber"
 msgstr ""
 
-#: mapping.py:435
+#: mapping.py:436
 #, fuzzy
 msgid "ipServicePort"
 msgstr "Services"
 
-#: mapping.py:439
+#: mapping.py:440
 msgid "ipServiceProtocolSUPname"
 msgstr ""
 
-#: mapping.py:442
+#: mapping.py:443
 msgid "janetMailbox"
 msgstr ""
 
-#: mapping.py:446
+#: mapping.py:447
 msgid "jpegPhoto"
 msgstr "Photo"
 
-#: mapping.py:452
+#: mapping.py:453
 msgid "knowledgeInformation"
 msgstr ""
 
-#: mapping.py:457
+#: mapping.py:458
 msgid "Location"
 msgstr "Localisation"
 
-#: mapping.py:463
+#: mapping.py:464
 msgid "labeledURI"
 msgstr ""
 
-#: mapping.py:468
+#: mapping.py:469
 msgid "ldapSyntaxes"
 msgstr ""
 
-#: mapping.py:472
+#: mapping.py:473
 msgid "loginShell"
 msgstr ""
 
-#: mapping.py:476
+#: mapping.py:477
 msgid "mDRecord"
 msgstr ""
 
-#: mapping.py:480
+#: mapping.py:481
 msgid "mXRecord"
 msgstr ""
 
-#: mapping.py:484
+#: mapping.py:485
 #, fuzzy
 msgid "macAddress"
 msgstr "Adresse MAC"
 
-#: mapping.py:489
+#: mapping.py:490
 msgid "Email"
 msgstr "Adresse électronique"
 
-#: mapping.py:494
-#, fuzzy
+#: mapping.py:495
 msgid "mailForwardingAddress"
 msgstr ""
 
-#: mapping.py:498
+#: mapping.py:499
 msgid "mailHost"
 msgstr ""
 
-#: mapping.py:502
-#, fuzzy
+#: mapping.py:503
 msgid "mailLocalAddress"
 msgstr ""
 
-#: mapping.py:506
+#: mapping.py:507
 msgid "mailPreferenceOption"
 msgstr ""
 
-#: mapping.py:510
-#, fuzzy
+#: mapping.py:511
 msgid "mailRoutingAddress"
 msgstr ""
 
-#: mapping.py:514
+#: mapping.py:515
 msgid "manager"
 msgstr ""
 
-#: mapping.py:519
+#: mapping.py:520
 msgid "matchingRuleUse"
 msgstr ""
 
-#: mapping.py:523
+#: mapping.py:524
 msgid "matchingRules"
 msgstr ""
 
-#: mapping.py:527
+#: mapping.py:528
 msgid "member"
 msgstr ""
 
-#: mapping.py:530
+#: mapping.py:531
 msgid "memberNisNetgroup"
 msgstr ""
 
-#: mapping.py:534
+#: mapping.py:535
 msgid "memberUid"
 msgstr ""
 
-#: mapping.py:539
+#: mapping.py:540
 msgid "mobile mobileTelephoneNumber"
 msgstr ""
 
-#: mapping.py:545
+#: mapping.py:546
 msgid "modifiersName"
 msgstr ""
 
-#: mapping.py:549
+#: mapping.py:550
 msgid "modifyTimestamp"
 msgstr ""
 
-#: mapping.py:553
+#: mapping.py:554
 msgid "monitorContext"
 msgstr ""
 
-#: mapping.py:557
+#: mapping.py:558
 msgid "nSRecord"
 msgstr ""
 
-#: mapping.py:561
+#: mapping.py:562
 #, fuzzy
 msgid "name"
 msgstr "Nom complet"
 
-#: mapping.py:565
+#: mapping.py:566
 msgid "nameForms"
 msgstr ""
 
-#: mapping.py:569
+#: mapping.py:570
 msgid "namingCSN"
 msgstr ""
 
-#: mapping.py:573
+#: mapping.py:574
 msgid "namingContexts"
 msgstr ""
 
-#: mapping.py:577
+#: mapping.py:578
 msgid "nisMapEntry"
 msgstr ""
 
-#: mapping.py:581
+#: mapping.py:582
 msgid "nisMapNameSUPname"
 msgstr ""
 
-#: mapping.py:584
+#: mapping.py:585
 msgid "nisNetgroupTriple"
 msgstr ""
 
-#: mapping.py:594
+#: mapping.py:595
 msgid "Object Class"
 msgstr ""
 
-#: mapping.py:599
+#: mapping.py:600
 msgid "objectClasses"
-msgstr ""
+msgstr "Catégorie de l'enregistrement"
 
-#: mapping.py:603
+#: mapping.py:604
 msgid "oncRpcNumber"
 msgstr ""
 
-#: mapping.py:607
-#, fuzzy
+#: mapping.py:608
 msgid "organizationalStatus"
 msgstr ""
 
-#: mapping.py:611
+#: mapping.py:612
 msgid "otherMailbox"
 msgstr ""
 
-#: mapping.py:615
+#: mapping.py:616
 #, fuzzy
 msgid "Organizational unit"
 msgstr "Département"
 
-#: mapping.py:619
+#: mapping.py:620
 msgid "owner"
 msgstr ""
 
-#: mapping.py:623
+#: mapping.py:624
 msgid "pager pagerTelephoneNumber"
 msgstr ""
 
-#: mapping.py:627
+#: mapping.py:628
 msgid "personalSignature"
 msgstr ""
 
-#: mapping.py:631
+#: mapping.py:632
 msgid "personalTitle"
 msgstr ""
 
-#: mapping.py:635
+#: mapping.py:636
 msgid "Photo"
 msgstr "Photo"
 
-#: mapping.py:640
+#: mapping.py:641
 msgid "physicalDeliveryOfficeName"
 msgstr ""
 
-#: mapping.py:645
+#: mapping.py:646
 msgid "postOfficeBox"
 msgstr ""
 
-#: mapping.py:656
+#: mapping.py:657
 #, fuzzy
 msgid "Postal code"
 msgstr "Adresse postale"
 
-#: mapping.py:663
+#: mapping.py:664
 msgid "preferredDeliveryMethod"
 msgstr ""
 
-#: mapping.py:668
+#: mapping.py:669
 msgid "Preferred Language"
 msgstr "Langue préférée"
 
-#: mapping.py:674
+#: mapping.py:675
 msgid "presentationAddress"
 msgstr ""
 
-#: mapping.py:678
+#: mapping.py:679
 msgid "protocolInformation"
 msgstr ""
 
-#: mapping.py:682
+#: mapping.py:683
 msgid "pseudonym"
 msgstr ""
 
-#: mapping.py:685
+#: mapping.py:686
 msgid "ref"
 msgstr ""
 
-#: mapping.py:689
+#: mapping.py:690
 msgid "referral"
 msgstr ""
 
-#: mapping.py:692
+#: mapping.py:693
 msgid "registeredAddress"
 msgstr ""
 
-#: mapping.py:700
+#: mapping.py:701
 msgid "Role"
 msgstr "Rôle"
 
-#: mapping.py:705
+#: mapping.py:706
 msgid "roleOccupant"
 msgstr ""
 
-#: mapping.py:708
+#: mapping.py:709
 msgid "roomNumber"
 msgstr ""
 
-#: mapping.py:713
+#: mapping.py:714
 msgid "sOARecord"
 msgstr ""
 
-#: mapping.py:717
+#: mapping.py:718
 msgid "The persons home organization using the domain of the organization"
 msgstr ""
 
-#: mapping.py:725
+#: mapping.py:726
 msgid "searchGuide"
 msgstr ""
 
-#: mapping.py:729
+#: mapping.py:730
 msgid "secretary"
 msgstr ""
 
-#: mapping.py:734
+#: mapping.py:735
 msgid "seeAlso"
 msgstr "Voir aussi"
 
-#: mapping.py:738
+#: mapping.py:739
 msgid "serialNumber"
 msgstr ""
 
-#: mapping.py:742
+#: mapping.py:743
 msgid "shadowExpire"
 msgstr ""
 
-#: mapping.py:746
+#: mapping.py:747
 msgid "shadowFlag"
 msgstr ""
 
-#: mapping.py:750
+#: mapping.py:751
 msgid "shadowInactive"
 msgstr ""
 
-#: mapping.py:754
+#: mapping.py:755
 msgid "shadowLastChange"
 msgstr ""
 
-#: mapping.py:758
+#: mapping.py:759
 msgid "shadowMax"
 msgstr ""
 
-#: mapping.py:762
+#: mapping.py:763
 msgid "shadowMin"
 msgstr ""
 
-#: mapping.py:766
+#: mapping.py:767
 msgid "shadowWarning"
 msgstr ""
 
-#: mapping.py:770
+#: mapping.py:771
 msgid "singleLevelQuality"
 msgstr ""
 
-#: mapping.py:783
+#: mapping.py:784
 msgid "State or province"
 msgstr "État"
 
-#: mapping.py:790
+#: mapping.py:791
 msgid "street streetAddress"
 msgstr ""
 
-#: mapping.py:796
+#: mapping.py:797
 msgid "structuralObjectClass"
 msgstr ""
 
-#: mapping.py:800
+#: mapping.py:801
 msgid "subentry"
 msgstr ""
 
-#: mapping.py:803
+#: mapping.py:804
 msgid "subschema"
 msgstr ""
 
-#: mapping.py:806
+#: mapping.py:807
 msgid "subschemaSubentry"
 msgstr ""
 
-#: mapping.py:810
+#: mapping.py:811
 msgid "subtreeMaximumQuality"
 msgstr ""
 
-#: mapping.py:814
+#: mapping.py:815
 msgid "subtreeMinimumQuality"
 msgstr ""
 
-#: mapping.py:818
+#: mapping.py:819
 msgid "subtreeSpecification"
 msgstr ""
 
-#: mapping.py:822
+#: mapping.py:823
 msgid "supannActivite"
 msgstr ""
 
-#: mapping.py:826
+#: mapping.py:827
 msgid "supannAffectation"
 msgstr ""
 
-#: mapping.py:830
+#: mapping.py:831
 msgid "supannAliasLogin"
 msgstr ""
 
-#: mapping.py:834
+#: mapping.py:835
 msgid "supannAutreMail"
 msgstr ""
 
-#: mapping.py:838
+#: mapping.py:839
 msgid "supannAutreTelephone"
 msgstr ""
 
-#: mapping.py:842
+#: mapping.py:843
 msgid "supannCivilite"
 msgstr ""
 
-#: mapping.py:846
+#: mapping.py:847
 msgid "supannCodeEntite"
 msgstr ""
 
-#: mapping.py:850
+#: mapping.py:851
 msgid "supannCodeEntiteParent"
 msgstr ""
 
-#: mapping.py:854
+#: mapping.py:855
 msgid "supannCodeINE"
 msgstr ""
 
-#: mapping.py:858
+#: mapping.py:859
 msgid "supannEmpCorps"
 msgstr ""
 
-#: mapping.py:862
+#: mapping.py:863
 msgid "supannEmpId"
 msgstr ""
 
-#: mapping.py:866
+#: mapping.py:867
 msgid "supannEntiteAffectation"
 msgstr ""
 
-#: mapping.py:870
+#: mapping.py:871
 msgid "supannEntiteAffectationPrincipale"
 msgstr ""
 
-#: mapping.py:874
+#: mapping.py:875
 msgid "supannEtablissement"
 msgstr ""
 
-#: mapping.py:878
+#: mapping.py:879
 msgid "supannEtuAnneeInscription"
 msgstr ""
 
-#: mapping.py:882
+#: mapping.py:883
 msgid "supannEtuCursusAnnee"
 msgstr ""
 
-#: mapping.py:886
+#: mapping.py:887
 msgid "supannEtuDiplome"
 msgstr ""
 
-#: mapping.py:890
+#: mapping.py:891
 msgid "supannEtuElementPedagogique"
 msgstr ""
 
-#: mapping.py:894
+#: mapping.py:895
 msgid "supannEtuEtape"
 msgstr ""
 
-#: mapping.py:898
+#: mapping.py:899
 msgid "supannEtuId"
 msgstr ""
 
-#: mapping.py:902
+#: mapping.py:903
 msgid "supannEtuInscription"
 msgstr ""
 
-#: mapping.py:906
+#: mapping.py:907
 msgid "supannEtuRegimeInscription"
 msgstr ""
 
-#: mapping.py:910
+#: mapping.py:911
 msgid "supannEtuSecteurDisciplinaire"
 msgstr ""
 
-#: mapping.py:914
+#: mapping.py:915
 msgid "supannEtuTypeDiplome"
 msgstr ""
 
-#: mapping.py:918
+#: mapping.py:919
 msgid "supannGroupeAdminDN"
 msgstr ""
 
-#: mapping.py:922
+#: mapping.py:923
 msgid "supannGroupeDateFin"
 msgstr ""
 
-#: mapping.py:926
+#: mapping.py:927
 msgid "supannGroupeLecteurDN"
 msgstr ""
 
-#: mapping.py:930
+#: mapping.py:931
 msgid "supannListeRouge"
 msgstr ""
 
-#: mapping.py:934
+#: mapping.py:935
 msgid "supannMailPerso"
 msgstr ""
 
-#: mapping.py:938
+#: mapping.py:939
 msgid "supannOrganisme"
 msgstr ""
 
-#: mapping.py:942
+#: mapping.py:943
 msgid "supannParrainDN"
 msgstr ""
 
-#: mapping.py:946
+#: mapping.py:947
 msgid "supannRefId"
 msgstr ""
 
-#: mapping.py:950
+#: mapping.py:951
 msgid "supannRole"
 msgstr ""
 
-#: mapping.py:954
+#: mapping.py:955
 msgid "supannRoleEntite"
 msgstr ""
 
-#: mapping.py:958
+#: mapping.py:959
 msgid "supannRoleGenerique"
 msgstr ""
 
-#: mapping.py:962
+#: mapping.py:963
 msgid "supannTypeEntite"
 msgstr ""
 
-#: mapping.py:966
+#: mapping.py:967
 msgid "supannTypeEntiteAffectation"
 msgstr ""
 
-#: mapping.py:970
+#: mapping.py:971
 msgid "superiorUUID"
 msgstr ""
 
-#: mapping.py:974
+#: mapping.py:975
 msgid "supportedAlgorithms"
 msgstr ""
 
-#: mapping.py:978
+#: mapping.py:979
 msgid "supportedApplicationContext"
 msgstr ""
 
-#: mapping.py:982
+#: mapping.py:983
 msgid "supportedAuthPasswordSchemes"
 msgstr ""
 
-#: mapping.py:986
+#: mapping.py:987
 msgid "supportedControl"
 msgstr ""
 
-#: mapping.py:990
+#: mapping.py:991
 msgid "supportedExtension"
 msgstr ""
 
-#: mapping.py:994
+#: mapping.py:995
 msgid "supportedFeatures"
 msgstr ""
 
-#: mapping.py:998
+#: mapping.py:999
 msgid "supportedLDAPVersion"
 msgstr ""
 
-#: mapping.py:1002
+#: mapping.py:1003
 msgid "supportedSASLMechanisms"
 msgstr ""
 
-#: mapping.py:1006
+#: mapping.py:1007
 msgid "syncConsumerSubentry"
 msgstr ""
 
-#: mapping.py:1009
+#: mapping.py:1010
 msgid "syncProviderSubentry"
 msgstr ""
 
-#: mapping.py:1012
+#: mapping.py:1013
 msgid "syncTimestamp"
 msgstr ""
 
-#: mapping.py:1016
+#: mapping.py:1017
 msgid "syncreplCookie"
 msgstr ""
 
-#: mapping.py:1028
+#: mapping.py:1029
 msgid "teletexTerminalIdentifier"
 msgstr ""
 
-#: mapping.py:1033
+#: mapping.py:1034
 msgid "telexNumber"
 msgstr ""
 
-#: mapping.py:1038
+#: mapping.py:1039
 msgid "textEncodedORAddress"
 msgstr ""
 
-#: mapping.py:1042
+#: mapping.py:1043
 msgid "title"
 msgstr ""
 
-#: mapping.py:1046
+#: mapping.py:1047
 msgid "top"
 msgstr ""
 
-#: mapping.py:1050
+#: mapping.py:1051
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: mapping.py:1056
+#: mapping.py:1057
 msgid "uidNumber"
 msgstr ""
 
-#: mapping.py:1060
+#: mapping.py:1061
 msgid "uniqueIdentifier"
 msgstr "Identifiant unique"
 
-#: mapping.py:1064
+#: mapping.py:1065
 msgid "uniqueMember"
 msgstr ""
 
-#: mapping.py:1068
+#: mapping.py:1069
 msgid "userCertificate"
 msgstr ""
 
-#: mapping.py:1073
+#: mapping.py:1074
 msgid "userClass"
 msgstr ""
 
-#: mapping.py:1082
+#: mapping.py:1083
 #, fuzzy
 msgid "Password"
 msgstr "Mot de passe:"
 
-#: mapping.py:1088
+#: mapping.py:1090
 msgid "userSMIMECertificate"
 msgstr ""
 
-#: mapping.py:1093
+#: mapping.py:1095
 msgid "vendorName"
 msgstr ""
 
-#: mapping.py:1097
+#: mapping.py:1099
 msgid "vendorVersion"
+msgstr ""
+
+#: ldap_profile/fields.py:8
+msgid "Enter one item per line."
 msgstr ""
 
 #: ldap_profile/templates/base.html:20
@@ -1053,16 +1053,15 @@ msgid "Versatile Identity Management Server"
 msgstr "Serveur d'identité versatile"
 
 #: ldap_profile/templates/base.html:30
-#, python-format
-msgid "Hello %(username)s."
-msgstr "Bonjour %(username)s"
+msgid "Hello"
+msgstr "Bonjour"
 
 #: ldap_profile/templates/base.html:31
 msgid "Logout"
 msgstr "Déconnexion"
 
 #: ldap_profile/templates/edit_ldap_profile.html:4
-#: ldap_profile/templates/ldap_profile.html:33
+#: ldap_profile/templates/ldap_profile.html:34
 msgid "Edit profile"
 msgstr "Modifier le profil"
 
@@ -1086,19 +1085,19 @@ msgstr "Services"
 msgid "Administration"
 msgstr "Administration"
 
-#: ldap_profile/templates/ldap_profile.html:5
+#: ldap_profile/templates/ldap_profile.html:6
 msgid "Authentic - View Profile"
 msgstr "Authentic - Affiche le profil"
 
-#: ldap_profile/templates/ldap_profile.html:10
+#: ldap_profile/templates/ldap_profile.html:11
 msgid "View Profile"
 msgstr "Profil"
 
-#: ldap_profile/templates/ldap_profile.html:32
+#: ldap_profile/templates/ldap_profile.html:33
 msgid "Change password"
 msgstr "Modifier le mot de passe"
 
-#: ldap_profile/templates/ldap_profile.html:35
+#: ldap_profile/templates/ldap_profile.html:36
 msgid "Back"
 msgstr "Retour"
 
@@ -1220,5 +1219,5 @@ msgstr "Administration"
 msgid "Création de compte"
 msgstr ""
 
-#~ msgid "Profile"
-#~ msgstr "Profil"
+#~ msgid "Welcome"
+#~ msgstr "Bienvenu"

@@ -27,7 +27,7 @@
         {% if request.user.is_authenticated %}
         <div id="user">
           <p>
-            {% blocktrans with request.user.get_full_name as username %}Hello {{ username }}.{% endblocktrans %}
+          {% trans "Hello" %} {{ request.user.get_full_name }} ({{ request.user.username }}).
           <a id="logout" href="{% url 'auth_logout' %}">{% trans "Logout" %}</a></p>
         </div>
         {% endif %}

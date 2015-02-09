@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
+
 from authentic2.settings import INSTALLED_APPS, DATABASES,\
     TEMPLATE_DIRS
-## import mapping
 
-## AUTH_USER_MODEL = 'auth2_user.User'
 INSTALLED_APPS = ['ldap_profile', ] + INSTALLED_APPS
 TEMPLATE_DIRS = ('/usr/local/src/authentic2_novatus/ldap_profile/templates', )\
-   + TEMPLATE_DIRS
+    + TEMPLATE_DIRS
 
 AUTHENTICATION_BACKENDS = (
     # 'authentic2.backends.LDAPBackend',
@@ -28,7 +27,7 @@ AUTH_LDAP_BIND_PASSWORD = "transfer"
 # Lookup user under the branch o=base and by mathcing their uid against the
 # received login name
 AUTH_LDAP_USER_SEARCH = LDAPSearch("dc=transfer-tic,dc=org",
-    ldap.SCOPE_SUBTREE, "(uid=%(user)s)")
+                                   ldap.SCOPE_SUBTREE, "(uid=%(user)s)")
 
 
 ATTRIBUTE_MAPPING = 'mapping'
@@ -42,7 +41,7 @@ LDAP_AUTH_SETTINGS = ({
     'user_filter': 'uid=%s',
     'binddn': 'cn=admin,dc=transfer-tic,dc=org',
     'bindpw': 'transfer',
-    'transient': False,
+    'transient': True,
     'attribute_mappings': [],
     'attributes': ['cn', 'objectClass', 'photo', 'manager', 'title',
                    'facsimileTelephoneNumber', 'userCertificate',
@@ -73,12 +72,13 @@ CACHES = {
 ROOT_URLCONF = 'urls'
 
 DATABASES.update({'ldap': {
-   'ENGINE': 'ldapdb.backends.ldap',
-   'NAME': 'ldap://localhost/',
-   'USER': 'cn=admin,dc=transfer-tic,dc=org',
-   'PASSWORD': 'transfer', }, })
+    'ENGINE': 'ldapdb.backends.ldap',
+    'NAME': 'ldap://localhost/',
+    'USER': 'cn=admin,dc=transfer-tic,dc=org',
+    'PASSWORD': 'transfer', }, })
 
 DATABASE_ROUTERS = ['ldapdb.router.Router']
 
 CACHE_DIR = '/var/lib/authentic2/cache/'
 A2_HOMEPAGE_URL = '/profile/'
+ATTRIBUTE_BACKENDS = tuple()

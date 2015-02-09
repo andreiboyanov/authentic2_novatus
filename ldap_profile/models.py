@@ -1,7 +1,7 @@
 import ldapdb.models
 from django.contrib import admin
 from mapping import ATTRIBUTE_MAPPING as attribute_map
-from fields import fields_order
+from fields_order import fields_order
 
 DEFAULT_FIELD_LENGTH = 200
 
@@ -49,6 +49,7 @@ def get_profile(user):
 
 def get_ldap_fields():
     result = dict()
+    #FIXME: Get fields from settings.LDAP_AUTH_SETTINGS['attributes'] ??
     for name in fields_order:
         field = attribute_map[name]
         if 'django_type' not in field:
@@ -84,8 +85,26 @@ Profile = type('Profile', (ldapdb.models.Model, ),
 
 
 class ProfileAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name', 'username', 'email')
+    list_display = ('repr_first_name', 'repr_last_name',
+                    'repr_username', 'repr_email')
+    # list_display_links = ('first_name', 'last_name')
     search_fields = ('first_name', 'last_name', 'username', 'email')
 
+    def repr_list(self, value):
+        return ', '.join(value)
 
-from . import signals
+    def repr_first_name(self, user):
+        return self.repr_list(user.first_name)
+
+    def repr_last_name(self, user):
+        return self.repr_list(user.last_name)
+
+    def repr_username(self, user):
+        return self.repr_list(user.username)
+
+    def repr_email(self, user):
+        return self.repr_list(user.email)
+
+
+from signals import init_signals
+init_signals()
